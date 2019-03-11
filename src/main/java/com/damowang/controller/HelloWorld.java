@@ -9,7 +9,7 @@ public class HelloWorld {
 	
 	@RequestMapping("/helloworld")
 	public String say() {
-		
+		System.out.println("hot fix");
 		return "HelloWorld";
 	}
 }
